@@ -16,11 +16,11 @@ Botpress Server (> 11.5) is considered as ready for production usage.
 
 There are 3 major differences between Botpress X (10.x) and Botpress Server (11.x).
 
-1. v11 is not an NPM library anymore – it is a standalone application. We distribute binaries of v11 for OSX, Windows, Linux and Docker on a daily basis.
+1. v11 is not an NPM library anymore – it is a standalone application. Binaries of v11 are distributed for OSX, Windows, Linux and Docker on a daily basis.
 
 2. v11 now supports multiple bots natively and can be run on multiple nodes – thus the naming of Botpress Server.
 
-3. v11 is a complete backend rewrite to TypeScript. We have made significant architectural changes that are not backward-compatible.
+3. v11 is a complete backend rewrite to TypeScript. There are significant architectural changes that are not backward-compatible.
 
 ---
 
@@ -38,17 +38,17 @@ There are 3 major differences between Botpress X (10.x) and Botpress Server (11.
 
 ## Support the project ⭐
 
-If you feel awesome and want to support us in a small way, please consider starring and sharing the repo! This helps us get visability and allow the community to grow. 🙏
+Please consider starring and sharing the repo! This helps get visability and allow the community to grow. 🙏
 
 <img alt="Botpress" width="250" src=".github/assets/star_us.gif">
 
 ## Binaries
 
-You can download the binaries [here](https://s3.amazonaws.com/botpress-binaries/index.html).
+The binaries can be downloaded [here](https://s3.amazonaws.com/botpress-binaries/index.html).
 
 ## What's New in Botpress Server
 
-Botpress is on a mission to make useful bots ubiquitous by providing developers with cutting-edge tools to build & manage chatbots. We believe that in order to create great bots, significant time should be spent on user experience, **not** on the surrounding (and generic) features.
+Botpress is on a mission to make useful bots ubiquitous by providing developers with cutting-edge tools to build & manage chatbots. WIn order to create great bots, significant time should be spent on user experience, **not** on the surrounding (and generic) features.
 
 <p align="right">
   <img alt="Multi-bots" height="450" src=".github/assets/multi-bots.jpg">  
@@ -59,7 +59,7 @@ Botpress is on a mission to make useful bots ubiquitous by providing developers 
 
 ## Quick Start
 
-**Prerequisites**: Node 10.11 (you can use [nvm](https://github.com/creationix/nvm)) and Yarn.
+**Prerequisites**: Node 10.11 (use [nvm](https://github.com/creationix/nvm)) and Yarn.
 
 1. Run `yarn` to fetch node packages.
 1. Run `yarn build` to build the core, the UI and the modules.
@@ -67,7 +67,7 @@ Botpress is on a mission to make useful bots ubiquitous by providing developers 
 
 ### Building issues
 
-If you encounter errors when building modules (timeout, random errors, etc), try the following:
+If errors are encountered when building modules (timeout, random errors, etc), try the following:
 
 1. Go in each module folder and type `yarn && yarn build`
 
@@ -80,7 +80,7 @@ This will fetch the pro submodule and build the app. By default, `yarn build` wi
 
 ### Developer's Guide
 
-We use [Docusaurus](https://docusaurus.io/en/) to create the Developer's Guide.
+Use [Docusaurus](https://docusaurus.io/en/) to create the Developer's Guide.
 
 - To start the development server, run `yarn start:guide`
 - To generate the static files, run `yarn build:guide`. The generated files will appear under `/docs/guide/build`
@@ -88,19 +88,19 @@ We use [Docusaurus](https://docusaurus.io/en/) to create the Developer's Guide.
 
 ### SDK Reference
 
-We use [TypeDoc](https://github.com/TypeStrong/typedoc) to generate the SDK Reference directly from the source code.
+Use [TypeDoc](https://github.com/TypeStrong/typedoc) to generate the SDK Reference directly from the source code.
 
 - Run `yarn build:reference` to generate the documentation. THe static files will appear under `/docs/reference/public`.
 
 ## Contributing
 
-Thank you for your interest in Botpress. Here are some of the many ways to contribute.
+Here are some of the many ways to contribute.
 
-- Check out our [contributing guide](/.github/CONTRIBUTING.md)
+- Check out [contributing guide](/.github/CONTRIBUTING.md)
 - Check misspelling in our docs.
-- Look at our [code of conduct](/.github/CODE_OF_CONDUCT.md)
-- Engage with us on Social Media
-  - Follow us on [Twitter](https://twitter.com/getbotpress)
+- Look at [code of conduct](/.github/CODE_OF_CONDUCT.md)
+- Engage on Social Media
+  - Follow on [Twitter](https://twitter.com/getbotpress)
 - Answer and ask questions on the [Forum](https://help.botpress.io/)
 
 For starters, there are some open issues with the [first good issue][starter-label] tag which are ideal for starting to contribute. They are all relatively easy to get started with.
@@ -113,7 +113,7 @@ Please follow the [Conventional Commits](https://conventionalcommits.org/) specs
 
 Botpress is dual-licensed under [AGPLv3](/licenses/LICENSE_AGPL3) and the [Botpress Proprietary License](/licenses/LICENSE_BOTPRESS).
 
-By default, any bot created with Botpress is licensed under AGPLv3, but you may change to the Botpress License from within your bot's web interface in a few clicks.
+By default, any bot created with Botpress is licensed under AGPLv3, the Botpress License can be changed from within bot's web interface in a few clicks.
 
 For more information about how the dual-license works and why it works that way, please see the <a href="https://botpress.io/faq">FAQS</a>.
 
